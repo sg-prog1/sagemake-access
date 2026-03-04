@@ -5,8 +5,6 @@ AWS_SECRET_ACCESS_KEY = "O5EMkJUOzixuqfS0oxeJI4RUbuk59GtztC+wp0Sq"
 REGION = "us-east-1"
 
 NOTEBOOK_NAME = "BiasAnalysis"
-# DOMAIN_ID = "d-xxxxxxxxxxxx"
-# USER_PROFILE = "user-profile-name"
 
 sm = boto3.client(
     "sagemaker",
