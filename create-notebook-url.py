@@ -30,4 +30,3 @@ def presign_studio(domain_id, user_profile, duration=3600):
 
 if __name__ == "__main__":
     presign_notebook(NOTEBOOK_NAME)
-    # presign_studio(DOMAIN_ID, USER_PROFILE)
